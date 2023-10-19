@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Lobster+Two:wght@700&display=swap"
+      rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/a2e0fa3792.js"
+      crossorigin="anonymous"></script>
+    <title>Works - My portfolio</title>
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <div class="works-section">
+      <div class="nav-container">
+        <nav class="navbar navbar-expand-lg pfolio-nav">
+          <div class="container-fluid">
+            <a class="navbar-brand logo" href="#">JoyTec</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navbarNavDropdown">
+              <ul class="navbar-nav pfolio-links">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item" onclick="displayWork()">
+                  <a class="nav-link" href="#" id="worksDisplay">Works</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="About.html">About me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contactme-container">Contact me</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <div class="works-sect">
+        <div class="work-container" id="works">
+          <h2 class="projects">Some personal projects worked on</h2>
+          <div class="row">
+            <div class="col-4">
+              <div class="card">
+                <img
+                  src="images/percentagecalsite.png"
+                  class="card-img-top image1"
+                  alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">A percentage calculator</h5>
+                  <p class="card-text">
+                    Technologies used are: Html, css and javascript
+                  </p>
+                  <div class="btn-container">
+                    <a href="#" class="btn view-btn">view</a>
+                    <a href="#" class="btn code-btn">Source code</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card">
+                <img
+                  src="images/food-site.png"
+                  class="card-img-top image1"
+                  alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">A restaurant website</h5>
+                  <p class="card-text">
+                    Technologies used are: Html, css and javascript
+                  </p>
+                  <div class="btn-container">
+                    <a href="#" class="btn view-btn">view</a>
+                    <a href="#" class="btn code-btn">Source code</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card">
+                <img
+                  src="images/beautysite.png"
+                  class="card-img-top image1"
+                  alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">A beauty/cosmetics website</h5>
+                  <p class="card-text">
+                    Technologies used are: Html, css and javascript
+                  </p>
+                  <div class="btn-container">
+                    <a href="#" class="btn view-btn">view</a>
+                    <a href="#" class="btn code-btn">Source code</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!----lang me section-->
+      <div class="techs">
+        <div class="tech-container">
+          <h3 class="plang">Programming languages proficient in</h3>
+        </div>
+        <div class="lang">
+          <div class="row">
+            <div class="col-3">
+              <!--<i class="fa fa-html5"></i>-->
+              <img
+                src="images/html-removebg-preview.png"
+                alt="html5"
+                class="himage" />
+            </div>
+            <div class="col-3">
+              <!--<i class="fa fa-css3"></i>-->
+              <img
+                class="cimage"
+                src="images/download-removebg-preview.png"
+                alt="css3" />
+            </div>
+            <div class="col-3">
+              <img
+                class="jimage"
+                src="images/download-removebg-preview (1).png"
+                alt="javascript" />
+            </div>
+            <div class="col-3">
+              <img
+                class="rimage"
+                src="images/download-removebg-preview (2).png"
+                alt="REACT" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

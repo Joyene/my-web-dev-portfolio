@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Lobster+Two:wght@700&display=swap"
+      rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/a2e0fa3792.js"
+      crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="src/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About me</title>
+  </head>
+  <body>
+    <div class="aboutme-section">
+      <div class="nav-container">
+        <nav class="navbar navbar-expand-lg pfolio-nav">
+          <div class="container-fluid">
+            <a class="navbar-brand logo" href="#">JoyTec</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navbarNavDropdown">
+              <ul class="navbar-nav pfolio-links">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item" onclick="displayWork()">
+                  <a class="nav-link" href="works.html" id="worksDisplay"
+                    >Works</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contactme-container">Contact me</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <!----About me-->
+      <div class="aboutme">
+        <div class="aboutme-container">
+          <div class="row">
+            <div class="col-6">
+              <div class="image-container">
+                <img
+                  src="images/IMG-20211010-WA0003.jpg"
+                  alt="myImage"
+                  class="about-image" />
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="intro">
+                <h1 class="greeting">👋Hi, I'm</h1>
+                <p class="intro-name"><strong>Joy Emmanuel</strong></p>
+                <p>
+                  A frontend web developer based in Nigeria. <br />
+                  I develop all kinds of responsive websites, such as blog site,
+                  E-commerce, online-marketing site <br />
+                  I am also proficient in
+                  <b>HTML, CSS, JAVASCRIPT, TYPESCRIPT and REACT</b>
+                </p>
+                <p><strong>iDesign, iCode, iBuild</strong></p>
+                <button class="works-btn" type="button">
+                  <a href="">Resume</a>
+                </button>
+                <button class="contact-btn" type="button">
+                  <a href="#contactme-container">Contact me</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!---contact me-->
+      <div class="contactme">
+        <div class="contact-container" id="contactme-container">
+          <div class="collab-container">
+            <div class="colla">
+              Transforming visions into captivating web experiences - let's team
+              up and create digital magic together!
+            </div>
+            <div class="chat">
+              <button type="submit" class="wame-btn">
+                <a class="wame" href="https://wa.me/+2349048289200"
+                  >Hit me up ☺</a
+                >
+              </button>
+            </div>
+          </div>
+          <div class="email">
+            <button type="button" class="mail-btn">
+              <a class="mail" href="mailto:joyz3002@gmail.com">Send a mail</a>
+            </button>
+          </div>
+          <div class="connectme">
+            <h5 class="connect">Lets connect via :</h5>
+            <span>
+              <a href="https://github.com/Joyene" target="_blank"
+                ><i class="fa fa-github"></i
+              ></a>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/joy-emmanuel3002/"
+                ><i class="fa fa-linkedin"></i
+              ></a>
+              <a href="https://www.twitter.com/Joymenyene" target="_blank"
+                ><i class="fa fa-twitter"></i
+              ></a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
